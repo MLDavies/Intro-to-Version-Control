@@ -375,7 +375,21 @@ You should see that we still have the 'calc-divide' branch in the remote reposit
 git push origin --delete calc-divide
 ```
 
+Additional commands
+
+```
+git branch branchname
+git checkout branchname
+
+git reset --hard 249058208923058935 
+git log 
+git merge 
+git branch -d branchname (local branch delete)
+git push origin --delete branchname (github branch delete)
+```
+
 This seems like a lot of work but it becomes very fast once you begin to do it every day!
+
 
 
 # Other Resources - Learn More!
