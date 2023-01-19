@@ -27,7 +27,13 @@ Another new function
 
 # EDA
 
-
+ga_page_raw_tbl %>%
+  group_by(pagePath) %>% 
+  plot_time_series(
+    date, pageViews,
+    .smooth = FALSE,
+    .interactive = FALSE
+  )
 
 # modeling
 
