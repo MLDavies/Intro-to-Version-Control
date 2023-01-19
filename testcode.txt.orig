@@ -31,7 +31,10 @@ ga_page_raw_tbl %>%
   group_by(pagePath) %>% 
   plot_time_series(
     date, pageViews,
+<<<<<<< HEAD
+=======
     .facet_ncol = 4,
+>>>>>>> eda
     .smooth = FALSE,
     .interactive = FALSE
   )
